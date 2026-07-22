@@ -1,64 +1,176 @@
-# Web Application Penetration Testing – OWASP Top 10
 
-## Overview
-This project demonstrates a professional approach to Web Application Penetration Testing
-aligned with the OWASP Top 10 framework. The assessment was performed in a controlled
-lab environment to simulate a real-world penetration testing engagement.
 
-The objective was to identify, exploit, and document common web application vulnerabilities
-and provide risk-based remediation recommendations.
+# 🛡️ OWASP Web Penetration Testing Framework
 
----
+> A comprehensive hands-on Web Application Penetration Testing repository covering the OWASP Top 10, Web Security Testing Methodology, API Security, and practical exploitation techniques using industry-standard tools.
 
-## Objectives
-- Perform manual and automated web application security testing
-- Identify vulnerabilities mapped to OWASP Top 10
-- Demonstrate exploitation with proof of concept
-- Analyze security and business impact
-- Provide mitigation and remediation recommendations
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-success)
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-Professional-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
 ---
 
-## Scope of Testing
-The following OWASP Top 10 categories were tested:
+## 📌 Overview
 
-- A01: Broken Access Control
-- A02: Broken Authentication
-- A03: Injection (SQL Injection)
-- A05: Security Misconfiguration
-- A07: Cross-Site Scripting (XSS)
+This repository documents practical web application penetration testing techniques based on the OWASP Web Security Testing Guide (WSTG) and OWASP Top 10.
+
+It includes reconnaissance, authentication testing, session management, injection attacks, file upload vulnerabilities, API security assessments, automation scripts, exploitation techniques, and reporting methodologies used during professional security assessments.
+
+The objective of this project is to strengthen practical offensive security skills while following structured penetration testing methodologies.
 
 ---
 
-## Tools & Technologies
-- Kali Linux
-- Damn Vulnerable Web Application (DVWA)
-- Burp Suite (Community Edition)
+## 🎯 Objectives
+
+- Perform end-to-end web application security assessments
+- Understand the OWASP Testing Methodology
+- Identify and exploit common web vulnerabilities
+- Practice secure vulnerability reporting
+- Improve Web/API penetration testing skills
+- Build a professional cybersecurity portfolio
+
+---
+
+# ⚡ Features
+
+✔ Web Application Reconnaissance
+
+✔ Authentication Testing
+
+✔ Authorization Testing
+
+✔ Session Management Testing
+
+✔ Input Validation Testing
+
+✔ SQL Injection
+
+✔ Cross Site Scripting (XSS)
+
+✔ Cross Site Request Forgery (CSRF)
+
+✔ Server Side Request Forgery (SSRF)
+
+✔ XML External Entity (XXE)
+
+✔ Insecure Direct Object Reference (IDOR)
+
+✔ Command Injection
+
+✔ File Upload Vulnerabilities
+
+✔ Path Traversal
+
+✔ Business Logic Testing
+
+✔ API Security Testing
+
+✔ Burp Suite Labs
+
+✔ Practical Exploitation Examples
+
+✔ Professional Notes & Documentation
+
+---
+
+# 🛠️ Tools Used
+
+- Burp Suite
+- OWASP ZAP
 - Nmap
-- SQLmap
-- Apache & MySQL
+- ffuf
+- SQLMap
+- Gobuster
+- Nikto
+- WhatWeb
+- Curl
+- Postman
+- Python
+- Linux
+- Kali Linux
 
 ---
 
-## Methodology
-A structured penetration testing methodology was followed:
-1. Reconnaissance and Enumeration
-2. Vulnerability Identification
-3. Manual Exploitation
-4. Impact Analysis
-5. Risk Assessment
-6. Remediation Recommendations
+# 📂 Repository Structure
+
+
+OWASP-Web-Penetration-Testing/
+│
+├── Authentication/
+├── Authorization/
+├── Session Management/
+├── SQL Injection/
+├── Cross Site Scripting/
+├── File Upload/
+├── SSRF/
+├── XXE/
+├── IDOR/
+├── Command Injection/
+├── Path Traversal/
+├── API Security/
+├── Burp Suite Labs/
+├── Scripts/
+├── Notes/
+├── Reports/
+└── README.md
+
 
 ---
 
-## Key Outcomes
-- Identified multiple high-risk vulnerabilities
-- Successfully exploited vulnerabilities using manual techniques and tools
-- Documented findings in a professional penetration testing format
-- Recommended secure coding and configuration practices
+# 📚 Topics Covered
+
+- Information Gathering
+- Web Enumeration
+- Directory Discovery
+- Authentication Bypass
+- Session Hijacking
+- Cookie Security
+- JWT Security
+- SQL Injection
+- Blind SQL Injection
+- Stored XSS
+- Reflected XSS
+- DOM XSS
+- SSRF
+- XXE
+- CSRF
+- Command Injection
+- File Upload Bypass
+- Race Conditions
+- IDOR
+- Access Control
+- API Testing
+- Rate Limiting
+- Business Logic Vulnerabilities
 
 ---
 
-## Disclaimer
-This project was conducted strictly in a controlled lab environment for educational
-purposes only. No unauthorized testing was performed on real-world systems.
+# 📖 Learning Outcomes
+
+After completing this project, you will understand:
+
+- OWASP Web Security Testing Methodology
+- Professional penetration testing workflow
+- Web application attack surface analysis
+- Manual vulnerability assessment
+- API penetration testing
+- Burp Suite workflow
+- Secure reporting practices
+
+---
+
+# 📄 Disclaimer
+
+This repository is intended solely for educational purposes and authorized security testing. Do not use these techniques against systems without explicit permission.
+
+---
+
+# 👨‍💻 Author
+
+**Hrushikesh Pawar**
+
+Cybersecurity | Penetration Testing | Web/API Security | Red Teaming
+
+---
